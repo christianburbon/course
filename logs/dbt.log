@@ -49,3 +49,12 @@ Runtime Error
   
 [0m20:42:17.178869 [debug] [MainThread]: Command `dbt run` failed at 20:42:17.178869 after 0.19 seconds
 [0m20:42:17.178869 [debug] [MainThread]: Flushing usage events
+[0m19:56:14.990811 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 19:56:15.028441 | 0e2c48a1-97f7-4dc8-8a13-03ace17436dc ==============================
+[0m19:56:15.028441 [info ] [MainThread]: Running with dbt=1.11.7
+[0m19:56:15.029944 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\chris\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:56:15.057324 [info ] [MainThread]: A project called airbnb already exists here.
+[0m19:56:15.058339 [debug] [MainThread]: Command `dbt init` succeeded at 19:56:15.058339 after 0.13 seconds
+[0m19:56:15.059848 [debug] [MainThread]: Flushing usage events
